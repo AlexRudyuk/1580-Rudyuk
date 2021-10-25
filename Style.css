@@ -1,0 +1,38 @@
+header{
+    background-color: rgb(201, 149, 58);
+    height: 80px;
+}
+
+
+.pic{
+    border: 2px ridge black;
+}
+
+footer{
+    background-color: rgb(201, 149, 58);
+    height:50px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.knopochka {
+    display: block;
+    background-color: chocolate;
+}
+
+.cont{
+    width: 98%;
+    margin: 30px 20px;
+}
+
+.line li{
+    display: inline;
+    margin: 15px;
+    color: black;
+}
+.box{
+    display: -moz-stack;
+}
