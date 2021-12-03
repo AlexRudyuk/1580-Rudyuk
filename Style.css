@@ -3,6 +3,12 @@ header{
     height: 80px;
 }
 
+@media screen and (max-width: 1024px) {
+    header {
+    background-color: white;
+    }
+   }
+   
 
 .pic{
     border: 2px ridge black;
@@ -18,7 +24,7 @@ a{
     font-size: 20px;
 }
 
-.knopochka {
+.knopka {
     display: block;
     background-color: chocolate;
 }
@@ -29,6 +35,7 @@ a{
 }
 
 .line li{
+    text-decoration: none;
     display: inline;
     margin: 15px;
     color: black;
